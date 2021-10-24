@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "run",
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}\\build\\main.exe",
+        "args": [],
+        "symbolSearchPath": "${workspaceFolder}\\build",
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": true,
+        "preLaunchTask": "build"
+      }
+    ]
+  }
